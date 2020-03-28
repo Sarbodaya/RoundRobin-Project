@@ -12,9 +12,15 @@ int main()
 {
 	
 	printf("*********************************Round Robin Algorithm********************************************\n");
-	printf("\nEnter the no. of process\n");
 	printf("Here are Some attributes\n");
 	printf("AT :- Arrival Time\n");
+	printf("BT :- Burst Time\n");
+	printf("TQ :- Time Quantum\n");
+	printf("TAT :- Turn Around Time\n");
+	printf("WT :- Waiting Time\n");
+	printf("CT :- Completion Time\n");
+	printf("RT :- Responsive Time\n");
+	printf("\nEnter the no. of process\n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
