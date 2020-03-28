@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void STACK1(int pnt,int tm);
 void STACK2(int pnt,int tm);
 void AddQue(int pnt);
