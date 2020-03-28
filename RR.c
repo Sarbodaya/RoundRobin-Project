@@ -13,6 +13,8 @@ int main()
 	
 	printf("*********************************Round Robin Algorithm********************************************\n");
 	printf("\nEnter the no. of process\n");
+	printf("Here are Some attributes\n");
+	printf("AT :- Arrival Time\n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
