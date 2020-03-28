@@ -1,0 +1,6 @@
+
+
+#git status     //run this command every time to check status
+#git add -all   //to add everything whatever newly changes in code
+#git commit -m "any message"   //to commit in double quotes write any message you want
+#git push origin master  //push your committed to master branch
