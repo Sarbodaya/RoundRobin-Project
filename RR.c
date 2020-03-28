@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 void STACK1(int pnt,int tm);
 void STACK2(int pnt,int tm);
 void AddQue(int pnt);
@@ -33,6 +34,7 @@ int main()
 	}
 	printf("Enter the Time Quantum\n");
 	scanf("%d",&tq);
+	system("cls");
 	printf("GANT CHART\n");
 	printf("%d",at[0]);
 	do{
